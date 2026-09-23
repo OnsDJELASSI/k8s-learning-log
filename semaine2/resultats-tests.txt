@@ -1,0 +1,10 @@
+== RBAC (app-reader) ==
+list pods    : yes
+delete pods  : no
+list secrets : no
+list pods (default) : no
+
+== NetworkPolicy ==
+frontend -> backend : 200
+intruder -> backend : 000
+command terminated with exit code 28
